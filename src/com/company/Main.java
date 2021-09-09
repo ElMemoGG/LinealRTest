@@ -14,6 +14,7 @@ public class Main {
         double b1 = noc.Beta1();
 
         System.out.println("b0: "+b0 +" b1: "+ p +" = " + (b0 + b1* p));
+        System.out.println("holsa");
 
     }
 }
