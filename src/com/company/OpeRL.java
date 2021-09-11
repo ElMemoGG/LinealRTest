@@ -23,5 +23,9 @@ public class OpeRL {
     }
     public float Beta1(){return (arr.length * xy - xS *  yS)/(arr.length * x2 - xS * xS);}
 
+    public void Prediccion(int x){
+        System.out.println("y = "+ Beta0() +" + "+ Beta1() +"x");
+        System.out.println(Beta0() +" + "+ Beta1()  +"(" + x + ") = "+ (Beta0() + Beta1()* x));
+    }
 
 }
